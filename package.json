@@ -1,0 +1,27 @@
+{
+  "name": "short-link",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Rusek <rusekpawel1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "config": "^3.0.1",
+    "http-graceful-shutdown": "^2.2.3",
+    "is-url": "^1.2.4",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "log4js": "^4.0.2",
+    "short-unique-id": "^1.1.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
